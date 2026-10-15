@@ -5,7 +5,7 @@
     position: absolute;
     height: 55vw;
     width: 55vw;
-    max-width: 500px;
+    max-width: 500px; 
     max-height: 500px;
     animation-name: wheel;
     animation-duration: 10s;
@@ -97,8 +97,22 @@ transform: rotate(300deg);
     }
 }
 body{
-    padding: 100px;
+    padding: 50px;
 }
 footer{
-    padding-left: 600px;
+  padding-top: 10px;
+}
+@media (max-width:600px) {
+    body{
+        height: 700px;
+        width: 500px;
+    }
+    .footer{
+        padding-left:100px;
+    }
+    .wheel{
+        padding: 0px;
+    
+    }
+    
 }

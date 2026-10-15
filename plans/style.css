@@ -39,3 +39,13 @@ h1{
  h2{
      padding-bottom: 40px;
  }
+ @media (max-width:600px) {
+    .basic-plan,.premium-plan,.pro-plan{
+        height: 300px;
+        width: 250px;
+    }
+    h2{
+        padding-bottom: 120px;
+    }
+    
+ }

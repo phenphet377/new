@@ -49,3 +49,10 @@
         translate: (-50%, -50%);
     }
 }
+ @media(max-width:600px){
+    .space{
+        height: 800px;
+        width: 500px;
+        padding: 0px;
+    }
+ }
